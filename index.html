@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Suba's Pricing Plans</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Choose Your Plan</h1>
+
+        <p class="subtitle">
+            Simple pricing for everyone
+        </p>
+
+        <!-- Billing Toggle -->
+        <div class="billing">
+            <span>Monthly</span>
+
+            <label class="switch">
+                <input type="checkbox" id="billingToggle">
+                <span class="slider"></span>
+            </label>
+
+            <span>Yearly</span>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="pricing-container">
+
+            <!-- Basic Plan -->
+            <div class="pricing-card">
+
+                <h2>Basic</h2>
+
+                <h3 class="price"
+                    data-monthly="9"
+                    data-yearly="90">
+                    $9
+                </h3>
+
+                <p class="period">per month</p>
+
+                <ul>
+                    <li>5 Projects</li>
+                    <li>Basic Support</li>
+                    <li>10 GB Storage</li>
+                </ul>
+
+                <button>Choose Plan</button>
+
+            </div>
+
+            <!-- Pro Plan -->
+            <div class="pricing-card popular">
+
+                <span class="badge">Popular</span>
+
+                <h2>Pro</h2>
+
+                <h3 class="price"
+                    data-monthly="19"
+                    data-yearly="190">
+                    $19
+                </h3>
+
+                <p class="period">per month</p>
+
+                <ul>
+                    <li>Unlimited Projects</li>
+                    <li>Priority Support</li>
+                    <li>50 GB Storage</li>
+                </ul>
+
+                <button>Choose Plan</button>
+
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="pricing-card best">
+
+                <span class="badge">Best Value</span>
+
+                <h2>Premium</h2>
+
+                <h3 class="price"
+                    data-monthly="29"
+                    data-yearly="290">
+                    $29
+                </h3>
+
+                <p class="period">per month</p>
+
+                <ul>
+                    <li>Unlimited Projects</li>
+                    <li>24/7 Support</li>
+                    <li>Unlimited Storage</li>
+                </ul>
+
+                <button>Choose Plan</button>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Designed by Suba © 2026</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
